@@ -1,0 +1,9 @@
+=== NIST INCIDENT RESPONSE AUTOMATED EXERCISE AUDIT LOG ===
+
+[09:30:12] [DETECTION] ALERT: Unauthorized large database dump query detected on Asset ID: DB_09!
+[09:31:05] [CONTAINMENT] ACTION: Quarantining compromised Database Node. Disconnecting network interface and disabling active session token matrix.
+[09:32:15] [ERADICATION] ACTION: Cleaning persistence indicators. Identified and terminated unauthorized interactive python web shell backdoor.
+[09:33:40] [RECOVERY] ACTION: Restoring database records from trusted read-only point-in-time snapshot. Running strict compliance asset checks.
+[09:35:00] [LESSONS LEARNED] CONCLUSION: Root cause identified as SQLi credential theft. Recommendation updated: Enforce prepared query parameters and restrict database egress ports.
+
+[SUCCESS] Simulated Incident Handling Exercise executed smoothly. Output captured inside 'logs/simulation_output.txt'.
